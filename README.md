@@ -1,13 +1,13 @@
 # docker-test
 
 with gradle 
-
+-----------
 gradle build buildDocker 
 
-with maven 
-
+with maven
+----------
 mvn install dockerfile:build
 
-run docker
-
+run docker image
+----------------
 docker run -p 8080:8080 -t springio/gs-rest-service
